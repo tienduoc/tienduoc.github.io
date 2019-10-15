@@ -13,8 +13,7 @@ npm install -g @angular/cli
 ng new my-dream-app
 cd my-dream-app
 ng serve
-
+```
 [homepage](https://cli.angular.io)
 
-```
 ## 2. Plugin for Visual Studio Code
