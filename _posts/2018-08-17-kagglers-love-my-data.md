@@ -1,9 +1,10 @@
 ---
-title: "Kagglers love my Olympic History dataset!"
+title: 'ES2015 var, let và const keywords'
 layout: post
-date: 2018-08-17
+date: {}
 tags: Kaggle announcement
 comments: true
+published: true
 ---
 
 A couple of months ago, I shared my [Olympic History dataset](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results) with the Kaggle community, and I have been amazed and honored by it's popularity! It is currently the hottest dataset on Kaggle!
