@@ -19,7 +19,7 @@ Phạm vi của 1 biến trong Javascript phụ thuộc vào nơi biến đượ
 
 Ví dụ:
 
-```
+```javascript
 'use strict';
 
 function addWithDoubleValue(a, b) {
@@ -38,7 +38,7 @@ Kết quả nhận được là ta có thông báo lỗi biến  `doubleA`  chư
 
 Trong Javascript không có biến cục bộ của khối lệnh và biến có thể sử dụng trước khi nó khai báo mà không sinh ra lỗi. Chẳng hạn, trong đoạn code sau:
 
-```
+```javascript
 'use strict';
 
 console.log(doubleA);
@@ -53,7 +53,7 @@ Lúc này, kết quả nhận được của chúng ta không còn giống như 
 
 Tại sao lại có sự khác biệt như thế. Tất cả phải chăng là magic. Ở đây Javascript có 1 khái niệm là variable hoisting. Các biến dù được khai báo ở bất kỳ đâu trong hàm, đều được di chuyển lên đầu tiên. Chúng ta có thể viết lại đoạn code trên như sau:
 
-```
+```javascript
 'use strict';
 var doubleA;
 
@@ -67,7 +67,7 @@ doubleA = 5;
 
 Hay trong 1 ví dụ khác, trong ví dụ dưới đây, tôi sẽ minh họa cả vấn đề biến cục bộ trong Javascript.
 
-```
+```javascript
 'use strict';
 
 var age = 15;
@@ -89,7 +89,7 @@ Nguyên nhân là trong Javascript không có biến cục bộ theo khối lệ
 
 Hẳn là trong 1 số ứng dụng, có thể chúng ta gặp tình trạng như sau:
 
-```
+```javascript
 function blockScope() {
   'use strict';
   var arr = [];
@@ -117,7 +117,7 @@ Vì không có biến cục bộ, nên lúc này biến i đã bị hoisting, h�
 
 Khi đó chúng ta cần 1 loại biến đặc biệt, là biến cục bộ. Chẳng hạn trong ví dụ trên, nếu tôi thay  `var i`  thành  `let i` – có trong ES2015, chúng ta sẽ có kết quả mong muốn.
 
-```
+```javascript
 function blockScope() {
   'use strict';
   var arr = [];
@@ -141,7 +141,7 @@ Kết quả nhận được trong đoạn code trên như sau:
 
 Hoặc như đoạn code sau:
 
-```
+```javascript
 function blockScope() {
   'use strict';
 
@@ -163,7 +163,7 @@ Kết quả chúng ta nhận được cái lỗi to uỳnh:
 
 Như các bạn cũng đã biết trong JS thường, chúng ta không có khái niệm hằng số, các biến của JS đều có thể gán đi mất tiêu luôn. Nhưng trong ES2015 có thêm hằng số. Vậy hằng số có đặc điểm gì. Chính xác là bạn không thể gán 1 hằng khi nó đã được khai báo với 1 giá trị khác. (không dùng phép gán trên hằng được)
 
-```
+```javascript
 function constant() {
   'use strict';
   const PI = 3.14;
@@ -182,7 +182,7 @@ Vậy là chúng ta không thể thực hiện phép gán trên hằng số đư
 
 Hãy xem ví dụ sau nhé:
 
-```
+```javascript
 function constant() {
   'use strict';
   const obj = {'name': 'constant'};
@@ -197,7 +197,7 @@ constant();
 
 Kết quả nhận được như sau:
 
-```
+```javascript
 [object Object] {
   name: "constant",
   type: "Something go wrong!"
@@ -207,7 +207,7 @@ Kết quả nhận được như sau:
 
 Tương tự như thế cho Array, với các đoạn xử lý không thay đổi con trỏ của biến thì không bị lỗi khi sử dụng _const, _chỉ khi nào chúng ta gán biến đó bằng 1 biến khác thì mới bị lỗi.
 
-```
+```javascript
 function constant() {
   'use strict';
   const obj = {'name': 'constant'};
@@ -225,7 +225,7 @@ Chúng ta cũng nhận được lỗi tương tự, vì đã gán 1 hằng cho 1
 
 1 số method trên Array như splice, push, … không làm thay đổi con trỏ của biến kiểu Array, nên nó cũng hợp lệ.
 
-```
+```javascript
 function constant() {
   'use strict';
   const arr = [];
@@ -247,7 +247,7 @@ constant();
 
 Kết quả có được như sau.
 
-```
+```javascript
 [1, 2, 3]
 [1, 3]
 [1, 3, 4, 7, 9]
