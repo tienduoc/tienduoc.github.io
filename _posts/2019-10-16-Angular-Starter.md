@@ -1,7 +1,7 @@
 ---
 title: 'Angular: Start'
 layout: post
-date: {}
+date: 2018-08-01T00:00:00.000Z
 tags: angular
 comments: true
 published: true
