@@ -1,8 +1,10 @@
 ---
-published: true
+title: "ES2015 var, let và const keywords"
+layout: post
+date: 2018-08-01
+tags: var let const ES5
+comments: true
 ---
-# ES2015 var, let và const keywords
-
 ## Giới thiệu:
 
 ES2015 giới thiệu một số tính năng mới, trong đó phải kể đến  `biến cục bộ theo khối lệnh` và  `hằng số`.
