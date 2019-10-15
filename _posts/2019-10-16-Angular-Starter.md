@@ -1,14 +1,14 @@
 ---
-title: "Angular: Start"
+title: 'Angular: Start'
 layout: post
-date: 2019-10-16
+date: {}
 tags: angular
 comments: true
 published: true
 ---
 ## 1. Angular CLI [link](https://cli.angular.io)
 
-```
+```ts
 npm install -g @angular/cli
 ng new my-dream-app
 cd my-dream-app
