@@ -82,7 +82,7 @@ a.sidebar-nav-item:focus {
  * Align the contents of the site above the proper threshold with some margin-fu
  * with a 25%-wide `.sidebar`.
  */
- body > div.content > div > div > ul > li:nth-child(1) > a
+
 .content {
   padding-top:    3rem;
   padding-bottom: 3rem;
@@ -97,8 +97,6 @@ a.sidebar-nav-item:focus {
     margin-right: 2rem;
     margin-bottom: 5rem;
   }
-}.a {
-  padding-left: 10px;
 }
 
 @media (min-width: 64em) {
