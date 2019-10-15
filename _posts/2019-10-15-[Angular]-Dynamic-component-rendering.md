@@ -1,5 +1,5 @@
 ---
-title: "[Angular] Dynamic component rendering"
+title: "Angular: Dynamic component rendering"
 layout: post
 date: 2018-08-01
 tags: angular component dynamic
