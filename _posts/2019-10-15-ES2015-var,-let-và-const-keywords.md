@@ -5,6 +5,7 @@ date: 2018-08-01T00:00:00.000Z
 tags: javascript
 comments: true
 published: true
+categories: JavaScript
 ---
 ## Giới thiệu:
 
