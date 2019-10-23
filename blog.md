@@ -19,7 +19,7 @@ published: true
   <h3>{{ tag }}</h3>
   <ul>
   {% for post in site.posts %}
-    {% if note.tags contains tag %}
+    {% if post.tags contains tag %}
     <li><span>{{ post.date | date: "%Y-%m-%d" }} &raquo; </span><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
   {% endfor %}
