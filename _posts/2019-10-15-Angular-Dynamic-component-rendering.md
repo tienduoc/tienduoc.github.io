@@ -1,8 +1,8 @@
 ---
-title: "Angular: Dynamic component rendering"
+title: 'Angular: Dynamic component rendering'
 layout: post
-date: 2018-08-01
-tags: angular component dynamic
+date: 2018-08-01T00:00:00.000Z
+tags: angular
 comments: true
 published: true
 ---
