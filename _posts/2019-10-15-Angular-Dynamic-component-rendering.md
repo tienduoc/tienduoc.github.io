@@ -5,6 +5,7 @@ date: 2018-08-01T00:00:00.000Z
 tags: angular
 comments: true
 published: true
+categories: Angular
 ---
 Trong nhiều trường hợp, chúng ta không biết trước phải render component nào, mà sẽ được render lúc runtime.
 
