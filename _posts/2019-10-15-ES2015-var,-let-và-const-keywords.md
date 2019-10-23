@@ -1,8 +1,8 @@
 ---
-title: "ES2015 var, let và const keywords"
+title: 'ES2015 var, let và const keywords'
 layout: post
-date: 2018-08-01
-tags: var let const ES5
+date: 2018-08-01T00:00:00.000Z
+tags: javascript
 comments: true
 published: true
 ---
