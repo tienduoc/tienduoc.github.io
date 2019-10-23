@@ -14,16 +14,15 @@ published: true
 </div>
 
 <div>
-{% assign tags =  site.note | map: 'tags' | join: ','  | split: ',' | uniq %}
-{% for tag in tags %}
-  <h3>{{ tag }}</h3>
-  <ul>
-  {% for post in site.posts %}
-    {% if post.tags contains tag %}
-    {{post.tags - tag}}
-    <li><span>{{ post.date | date: "%Y-%m-%d" }} &raquo; </span><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-  </ul>
+<ul>
+{% for category in site.categories %}
+  <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <ul>
+    {% for post in category.last %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </li>
 {% endfor %}
+</ul>
 </div>
