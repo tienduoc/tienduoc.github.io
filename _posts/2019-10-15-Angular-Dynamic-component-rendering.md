@@ -4,7 +4,6 @@ layout: post
 date: 2018-08-01
 tags: angular component dynamic
 comments: true
-tags: angular
 published: true
 ---
 Trong nhiều trường hợp, chúng ta không biết trước phải render component nào, mà sẽ được render lúc runtime.
