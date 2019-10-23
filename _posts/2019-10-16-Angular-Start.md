@@ -5,6 +5,7 @@ date: 2019-10-16T00:00:00.000Z
 tags: angular
 comments: true
 published: true
+categories: Angular
 ---
 ## 1. Angular CLI [link](https://cli.angular.io)
 
