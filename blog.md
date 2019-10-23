@@ -13,33 +13,20 @@ published: true
 </ul>
 </div>
 
-<div>
-{% for category in page.categories %}
-  {% assign moreThanOneInCategory = false %}
-  {% assign posts = site.categories[category] %}
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
 
-  {% for post in posts %}
-    {% if forloop.length > 1 %}
-      {% assign moreThanOneInCategory = true %}
-    {% endif %}
-  {% endfor %}
-
-  {% if moreThanOneInCategory == true %}
-    <div class="related-posts">
-      <h3>Other posts archived in “{{ category }}”</h3>
-
-      <ul>
-        {% for post in posts %}
-          {% unless post.url == page.url %}
-            <li>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-
-              Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-            </li>
-          {% endunless %}
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
 {% endfor %}
 </div>
