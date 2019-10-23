@@ -6,8 +6,8 @@ active: blog
 
 <div>
 <ul>
-    {% for post in site.posts %}
-    <h2>title</h2>
+    {% post.title contains "Angular" %}
+    ####Angular
       <li><span>{{ post.date | date: "%Y-%m-%d" }} &raquo; </span><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
