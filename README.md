@@ -79,8 +79,8 @@
   <summary>:zap: Recent GitHub Activity</summary>
   
 <!--START_SECTION:activity-->
-1. ❌ Closed PR [#14](https://github.com/codeSTACKr/codeSTACKr/pull/14) in [codeSTACKr/codeSTACKr](https://github.com/codeSTACKr/codeSTACKr)
-2. 🗣 Commented on [#14](https://github.com/codeSTACKr/codeSTACKr/issues/14) in [codeSTACKr/codeSTACKr](https://github.com/codeSTACKr/codeSTACKr)
+1. 🎉 Merged PR [#1](https://github.com/tienduoc/Spring-Security-JWT-JPA/pull/1) in [tienduoc/Spring-Security-JWT-JPA](https://github.com/tienduoc/Spring-Security-JWT-JPA)
+2. 💪 Opened PR [#1](https://github.com/tienduoc/Spring-Security-JWT-JPA/pull/1) in [tienduoc/Spring-Security-JWT-JPA](https://github.com/tienduoc/Spring-Security-JWT-JPA)
 3. ❌ Closed PR [#7](https://github.com/codeSTACKr/codeSTACKr/pull/7) in [codeSTACKr/codeSTACKr](https://github.com/codeSTACKr/codeSTACKr)
 4. 🎉 Merged PR [#6](https://github.com/codeSTACKr/codeSTACKr/pull/6) in [codeSTACKr/codeSTACKr](https://github.com/codeSTACKr/codeSTACKr)
 5. 💪 Opened PR [#259](https://github.com/florinpop17/app-ideas/pull/259) in [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas)
