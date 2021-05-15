@@ -79,7 +79,7 @@
   <summary>:zap: Recent GitHub Activity</summary>
   
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/tienduoc/Spring-Security-JWT-JPA/pull/1) in [tienduoc/Spring-Security-JWT-JPA](https://github.com/tienduoc/Spring-Security-JWT-JPA)
+1. ❗️ Opened issue [#48](https://github.com/isopropylcyanide/Jwt-Spring-Security-JPA/issues/48) in [isopropylcyanide/Jwt-Spring-Security-JPA](https://github.com/isopropylcyanide/Jwt-Spring-Security-JPA)
 2. 💪 Opened PR [#1](https://github.com/tienduoc/Spring-Security-JWT-JPA/pull/1) in [tienduoc/Spring-Security-JWT-JPA](https://github.com/tienduoc/Spring-Security-JWT-JPA)
 3. ❌ Closed PR [#7](https://github.com/codeSTACKr/codeSTACKr/pull/7) in [codeSTACKr/codeSTACKr](https://github.com/codeSTACKr/codeSTACKr)
 4. 🎉 Merged PR [#6](https://github.com/codeSTACKr/codeSTACKr/pull/6) in [codeSTACKr/codeSTACKr](https://github.com/codeSTACKr/codeSTACKr)
