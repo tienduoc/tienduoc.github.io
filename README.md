@@ -79,10 +79,10 @@
   <summary>:zap: Recent GitHub Activity</summary>
   
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#49](https://github.com/isopropylcyanide/Jwt-Spring-Security-JPA/pull/49) in [isopropylcyanide/Jwt-Spring-Security-JPA](https://github.com/isopropylcyanide/Jwt-Spring-Security-JPA)
-2. ❗️ Opened issue [#48](https://github.com/isopropylcyanide/Jwt-Spring-Security-JPA/issues/48) in [isopropylcyanide/Jwt-Spring-Security-JPA](https://github.com/isopropylcyanide/Jwt-Spring-Security-JPA)
-3. ❌ Closed PR [#7](https://github.com/codeSTACKr/codeSTACKr/pull/7) in [codeSTACKr/codeSTACKr](https://github.com/codeSTACKr/codeSTACKr)
-4. 🎉 Merged PR [#6](https://github.com/codeSTACKr/codeSTACKr/pull/6) in [codeSTACKr/codeSTACKr](https://github.com/codeSTACKr/codeSTACKr)
+1. 🎉 Merged PR [#4](https://github.com/tienduoc/E-Saniraty/pull/4) in [tienduoc/E-Saniraty](https://github.com/tienduoc/E-Saniraty)
+2. 🎉 Merged PR [#6](https://github.com/tienduoc/E-Saniraty/pull/6) in [tienduoc/E-Saniraty](https://github.com/tienduoc/E-Saniraty)
+3. 💪 Opened PR [#49](https://github.com/isopropylcyanide/Jwt-Spring-Security-JPA/pull/49) in [isopropylcyanide/Jwt-Spring-Security-JPA](https://github.com/isopropylcyanide/Jwt-Spring-Security-JPA)
+4. ❗️ Opened issue [#48](https://github.com/isopropylcyanide/Jwt-Spring-Security-JPA/issues/48) in [isopropylcyanide/Jwt-Spring-Security-JPA](https://github.com/isopropylcyanide/Jwt-Spring-Security-JPA)
 5. 💪 Opened PR [#259](https://github.com/florinpop17/app-ideas/pull/259) in [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas)
 <!--END_SECTION:activity-->
 
